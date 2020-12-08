@@ -37,4 +37,5 @@ JEKYLL_ENV=production jekyll build
 ## Demo URL
 
 Demo at [https://jekyll-tailwindcss.netlify.app/](https://jekyll-tailwindcss.netlify.app/)
+
 Styles are from [https://tailwindcomponents.com/component/card-hero-section](https://tailwindcomponents.com/component/card-hero-section)
