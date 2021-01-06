@@ -23,8 +23,14 @@ It's vital to understand how Tailwind purges CSS to avoid mistakes:
 Please read the documenation. For example, the following won't work:
 
 ```html
+<div class="text-{{  error  ?  'red'  :  'green'  }}-600"></div>
+```
+Instead always write the full class name, eg:
+
+```html
 <div class="{{  error  ?  'text-red-600'  :  'text-green-600'  }}"></div>
 ```
+
 
 [Source: documentation Tailwindcss](https://tailwindcss.com/docs/optimizing-for-production)
 
