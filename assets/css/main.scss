@@ -1,0 +1,12 @@
+---
+# front matter for Jekyll recognition
+--- 
+
+@tailwind base;
+@tailwind components;
+
+/* custom rules here */
+@import
+"custom";
+
+@tailwind utilities;
