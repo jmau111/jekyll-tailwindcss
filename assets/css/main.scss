@@ -2,11 +2,9 @@
 # front matter for Jekyll recognition
 --- 
 
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 /* custom rules here */
-@import
-"custom";
-
-@tailwind utilities;
+@import "assets/css/custom.scss";
