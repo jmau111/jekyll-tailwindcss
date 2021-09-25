@@ -1,5 +1,11 @@
 # Tailwindcss for Jekyll
 
+<div align="center">
+[![release](https://img.shields.io/github/release/jmau111/jekyll-tailwindcss.svg)](https://github.com/jmau111//jekyll-tailwindcss/releases/latest)
+[![release date](https://img.shields.io/github/release-date/jmau111/jekyll-tailwindcss.svg)](https://github.com/jmau111/jekyll-tailwindcss/releases)
+[![release feed](https://img.shields.io/badge/release-feed-yellow)](https://github.com/jmau111/jekyll-tailwindcss/releases.atom)
+</div>
+
 Here is a simple demo of Tailwindcss in Jekyll with sass
 
 ## How to use it
