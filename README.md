@@ -6,6 +6,8 @@
 
 Here is a simple demo of Tailwindcss in Jekyll with sass
 
+[See the live demo](https://demos.julien-maury.dev/jekyll-tailwindcss/)
+
 ## How to use it
 
 1. clone the repository
@@ -45,5 +47,7 @@ JEKYLL_ENV=production jekyll build
 ```
 
 ## Demo URL
+
+[See the live demo](https://demos.julien-maury.dev/jekyll-tailwindcss/)
 
 Styles are from [https://tailwindcomponents.com/component/card-hero-section](https://tailwindcomponents.com/component/card-hero-section)
