@@ -46,6 +46,12 @@ Here is the final build command:
 JEKYLL_ENV=production jekyll build
 ```
 
+If it does not work, try:
+
+```
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
 ## Demo URL
 
 [See the live demo](https://demos.julien-maury.dev/jekyll-tailwindcss/)
