@@ -31,7 +31,6 @@ github_username: jekyll
 plugins:
   - jekyll-feed
   - jekyll-postcss
-  - jekyll-purgecss
 
 css_dir: "assets/css" # defaults to "css"
 
@@ -48,5 +47,5 @@ exclude:
   - yarn.lock
   - postcss.config.js
   - tailwind.config.js
-  - purgecss.config.js
   - package.json
+  - README.md

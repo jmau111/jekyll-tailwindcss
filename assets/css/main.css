@@ -7,4 +7,8 @@
 @import "tailwindcss/utilities";
 
 /* custom rules here */
-@import "assets/css/custom.scss";
+body {
+    background: url("/assets/img/space.jpeg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
