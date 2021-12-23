@@ -4,7 +4,7 @@
 [![release date](https://img.shields.io/github/release-date/jmau111/jekyll-tailwindcss.svg)](https://github.com/jmau111/jekyll-tailwindcss/releases)
 [![release feed](https://img.shields.io/badge/release-feed-yellow)](https://github.com/jmau111/jekyll-tailwindcss/releases.atom)
 
-Here is a simple demo of Tailwindcss in Jekyll with sass
+Here is a simple demo of Tailwindcss **3++** in Jekyll with sass
 
 [See the live demo](https://demos.julien-maury.dev/jekyll-tailwindcss/)
 
@@ -31,6 +31,8 @@ If it does not work, try:
 ```
 JEKYLL_ENV=production bundle exec jekyll build
 ```
+
+Alternatively, you can use `yarn dev` and `yarn build`.
 
 ## Demo URL
 
