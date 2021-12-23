@@ -4,7 +4,7 @@
 [![release date](https://img.shields.io/github/release-date/jmau111/jekyll-tailwindcss.svg)](https://github.com/jmau111/jekyll-tailwindcss/releases)
 [![release feed](https://img.shields.io/badge/release-feed-yellow)](https://github.com/jmau111/jekyll-tailwindcss/releases.atom)
 
-Here is a simple demo of Tailwindcss in Jekyll with sass
+Here is a simple demo of Tailwindcss **3++** in Jekyll with sass
 
 [See the live demo](https://demos.julien-maury.dev/jekyll-tailwindcss/)
 
@@ -18,27 +18,7 @@ Here is a simple demo of Tailwindcss in Jekyll with sass
 
 Enjoy!
 
-## Purge
-
-Note that I don't use the built-in purge CSS of Tailwind. Instead, I use a Jekyll plugin to purge unused CSS.
-
-It's vital to understand how Tailwind purges CSS to avoid mistakes: 
-
-> It doesn't try to parse your HTML and look for class attributes or dynamically execute your JavaScript — it simply looks for any strings in the entire file that match a regular expression
-
-Please read the documenation. For example, the following won't work:
-
-```html
-<div class="text-{{  error  ?  'red'  :  'green'  }}-600"></div>
-```
-Instead always write the full class name, eg:
-
-```html
-<div class="{{  error  ?  'text-red-600'  :  'text-green-600'  }}"></div>
-```
-
-
-[Source: documentation Tailwindcss](https://tailwindcss.com/docs/optimizing-for-production)
+[Source: documentation Tailwindcss](https://tailwindcss.com)
 
 Here is the final build command:
 
@@ -51,6 +31,8 @@ If it does not work, try:
 ```
 JEKYLL_ENV=production bundle exec jekyll build
 ```
+
+Alternatively, you can use `yarn dev` and `yarn build`.
 
 ## Demo URL
 
