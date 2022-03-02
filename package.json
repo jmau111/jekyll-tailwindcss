@@ -1,7 +1,7 @@
 {
   "devDependencies": {
     "@tailwindcss/jit": "^0.1.18",
-    "@tailwindcss/typography": "^0.5.1",
+    "@tailwindcss/typography": "^0.5.2",
     "autoprefixer": "^10.4.2",
     "postcss": "^8.4.6",
     "postcss-import": "^14.0.2",
