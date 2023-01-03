@@ -46,7 +46,7 @@ jobs:
           # File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions.
           node-version-file: .node-version
       - name: NPM install
-        run: npm install -g postcss && npm install
+        run: npm install -g postcss cssnano postcss-import autoprefixer
         env:
           NODE_ENV: production
       - name: Build with Jekyll
@@ -54,6 +54,7 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+          NODE_ENV: production
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
