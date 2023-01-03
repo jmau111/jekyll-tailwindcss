@@ -43,8 +43,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
-      # Install PostCSS plugins (from your package.json)
+          node-version: "14"
       - run: npm install
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
@@ -53,7 +52,6 @@ jobs:
           JEKYLL_ENV: production
           NODE_ENV: production
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
 
   # Deployment job
@@ -67,3 +65,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
+        if: ${{ success() }}
