@@ -34,6 +34,6 @@ JEKYLL_ENV=production NODE_ENV production bundle exec jekyll build
 
 ## Demo URL
 
-[See the live demo](https://demos.julien-maury.dev/jekyll-tailwindcss/)
+[See the live demo](https://jmau111.github.io/jekyll-tailwindcss/)
 
 Styles are from [https://tailwindcomponents.com/component/card-hero-section](https://tailwindcomponents.com/component/card-hero-section)
