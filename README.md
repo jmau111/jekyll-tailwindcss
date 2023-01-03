@@ -23,16 +23,14 @@ Enjoy!
 Here is the final build command:
 
 ```
-JEKYLL_ENV=production jekyll build
+JEKYLL_ENV=production NODE_ENV production jekyll build
 ```
 
 If it does not work, try:
 
 ```
-JEKYLL_ENV=production bundle exec jekyll build
-```
-
-Alternatively, you can use `yarn dev` and `yarn build`.
+JEKYLL_ENV=production NODE_ENV production bundle exec jekyll build
+``
 
 ## Demo URL
 
