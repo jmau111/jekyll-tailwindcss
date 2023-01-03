@@ -46,7 +46,7 @@ jobs:
           # File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions.
           node-version-file: .node-version
       - name: NPM install
-        run: npm install -g postcss cssnano postcss-import autoprefixer
+        run: npm install && npm install -g postcss cssnano postcss-import autoprefixer
         env:
           NODE_ENV: production
       - name: Build with Jekyll
