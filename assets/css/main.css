@@ -6,9 +6,6 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-/* custom rules here */
 body {
-    background: url("/assets/img/space.jpeg") no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+ background: cyan;
 }
