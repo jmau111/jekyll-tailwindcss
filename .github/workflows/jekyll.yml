@@ -45,6 +45,10 @@ jobs:
         with:
           # File containing the version Spec of the version to use.  Examples: .nvmrc, .node-version, .tool-versions.
           node-version-file: .node-version
+      - name: NPM install
+        run: npm install
+        env:
+          NODE_ENV: production
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
