@@ -6,7 +6,7 @@
 
 Here is a simple demo of Tailwindcss **3++** in Jekyll with sass
 
-[See the live demo](https://demos.julien-maury.dev/jekyll-tailwindcss/)
+[See the live demo](https://jmau111.github.io/jekyll-tailwindcss/)
 
 ## How to use it
 
