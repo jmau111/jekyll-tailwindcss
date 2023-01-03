@@ -22,8 +22,8 @@ title: Jekyll Tailwindcss
 email: nope
 description: >- # this means to ignore newlines until "baseurl:"
   Tailwindcss starter for Jekyll
-baseurl: "/jekyll-tailwindcss" # the subpath of your site, e.g. /blog
-url: "https://jmau111.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jmau111.github.io/jekyll-tailwindcss" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username: jekyll
 
