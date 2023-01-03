@@ -32,6 +32,10 @@ If it does not work, try:
 JEKYLL_ENV=production NODE_ENV production bundle exec jekyll build
 ```
 
+## Node.js
+
+GitHub deploy uses **Node 14**
+
 ## Demo URL
 
 [See the live demo](https://jmau111.github.io/jekyll-tailwindcss/)
