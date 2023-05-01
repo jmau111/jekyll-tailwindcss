@@ -7,7 +7,7 @@
     "tailwindcss": "^3.2.6"
   },
   "dependencies": {
-    "cssnano": "^5.1.14"
+    "cssnano": "^6.0.1"
   },
   "scripts": {
     "dev": "bundle exec jekyll serve --watch",
